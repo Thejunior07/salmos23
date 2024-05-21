@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+:root{
+
+    --cor1:#042326;
+    --cor2:#0A3A40;
+    --cor3:#0F5959;
+    --cor4:#1D7373;
+    --cor5:#107361;
+}
+
+
+* {
+    margin:0px;
+    padding:0px;
+}
+
+header{
+    background-color: #042326;
+    color:white;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 50px;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+section{
+    padding-top: 16vh;
+    padding-bottom: 16vh;
+    line-height: 28px;
+    padding-left: 35px;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: #1D7373;
+    color: white;
+    background-attachment: fixed;
+}
+
+section.imagem > p{
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.515)
+    
+}
+
+section#img01{
+   background-image: url(foto/o-rio-da-montanha-azul-flui-por-uma-vasta-planicie-verde-bela-paisagem-alpina-com-agua-azul-em-um-rio-rapido-natureza-majestosa-poderosa-das-terras-altas_158388-7714.jpg);
+   background-position: center;
+}
+
+section#img02{
+    background-image: url(foto/uma-jovem-na-nevoa-ao-amanhecer-no-topo-da-montanha-de-aiako-harriak_242111-14587.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+footer{
+    background-color: #042326;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
